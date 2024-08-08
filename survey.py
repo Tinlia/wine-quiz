@@ -37,10 +37,10 @@ while True:
         print("Please enter 'white', 'red', or 'rose'.")
 
 # Collect input on wine flavors
-print("What flavors do you like in wine? (apple, pear, gooseberry, citrus, floral, spice, tropical, berries, butter, oak, strawberry, cherry, plum, peppercorn, raspberry, mushroom, dark chocolate, vanilla, honey, apricot, peach, lychee, toasty, mineral, earthy, pipe tobacco, cranberry)")
+print("What flavors do you like in wine? (apple, pear, orange, gooseberry, citrus, floral, spice, tropical, berries, butter, oak, strawberry, cherry, plum, peppercorn, raspberry, mushroom, dark chocolate, vanilla, honey, apricot, peach, lychee, toasty, mineral, earthy, pipe tobacco, cranberry)")
 while True:
     flavor = input("> ")
-    if flavor in ["apple", "pear", "gooseberry", "citrus", "floral", "spice", "tropical", "berries", "butter", "oak", "strawberry", "cherry", "plum", "peppercorn", "raspberry", "mushroom", "dark chocolate", "vanilla", "honey", "apricot", "peach", "lychee", "toasty", "mineral", "earthy", "pipe tobacco", "cranberry"]:
+    if flavor in ["apple", "pear", "orange", "gooseberry", "citrus", "floral", "spice", "tropical", "berries", "butter", "oak", "strawberry", "cherry", "plum", "peppercorn", "raspberry", "mushroom", "dark chocolate", "vanilla", "honey", "apricot", "peach", "lychee", "toasty", "mineral", "earthy", "pipe tobacco", "cranberry"]:
         tags.append(flavor)
     elif flavor == "":
         break
